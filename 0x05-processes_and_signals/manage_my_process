@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-# writes "I am alive!" in a file
-while true; do
-	echo "I am alive!" >> /tmp/my_process
-	sleep 2
+#manages a process
+while ((1))
+do
+    sudo bash -c "echo 'I am alive!' >> /tmp/my_process"
+    sleep 2
 done
