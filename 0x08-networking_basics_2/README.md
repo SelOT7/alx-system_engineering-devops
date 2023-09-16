@@ -25,4 +25,4 @@ Starting my script.
 
 Terminal 1
 
-Connecting to localhost on port 98 using telnet and typing some text.
+Connecting to localhost on port 98 using telnet and typing some text
