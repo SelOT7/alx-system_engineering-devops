@@ -1,0 +1,6 @@
+# Scaled Up Web Infrastructure
+## Description
+This web infrastructure is a scaled up version of the infrastructure.
+## About This Infrastructure
+- We now have 3 servers. We distributed the application server, webserver and database with in their own server. Now they became a cluster server which is what happens when a group of servers works as a unit.
+- We will also add another HAproxy loadbalancer to distribute work load  among them. This load balancer will work with the other load balancer to ditribute the work load among the servers.
