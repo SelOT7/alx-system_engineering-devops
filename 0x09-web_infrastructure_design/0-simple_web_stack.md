@@ -1,1 +1,24 @@
 # Simple Web Stack
+## Description
+This is a simple web infrastructure that hosts a website that is reachable via www.foobar.com.
+## About This Infrastructure
+
+**What is a server**
+Server is a computer, that has it's own, hard disk, CPU, RAM. What separates server from your computer is that server gives service to other computers, whether it is to store files, to use email or to connect to web  sites. A server can be of one kind providing one service or it can provide all the services mentioned above.
+
+**What is the role of the domain name**
+Domain name is a text based name of a webpage and used it is used by DNS to match it to its respective IP address.
+
+**What type of DNS record www is in www.foobar.com**
+The domain name here is foobar.com that comes after the dot and the first part, www, is a subdomain. www is used as a CNAME record whose value is foobar.com, which is then used by DNS to find it's IP address.
+
+**What is the role of the web server**
+Web server in its hardware form stores the html, java, css, image, it also stores web server software. The web server software controls how websites are accessed. This is done with the help of HTTP server, that understand URL and HTTP requests, to deliver us a static webpage.
+
+**What is the role of the application server**
+Application Server handles the business logic. This means it will transform the data to provide special functions, to make the webpage interactive with the user. It is an intermediate between the webserver and database. It reduces the complex interaction between webserver and database, by storing previous interactions, giving better performance, better management.
+
+**What is the role of the database**
+Database is a way to store information in an organized manner so that it can be easily accessed, updated and utilized.
+
+*The server uses IP address to communicate with the client using protocols like TCP\IP, HTTP.*
